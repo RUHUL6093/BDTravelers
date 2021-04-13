@@ -1,12 +1,19 @@
 import Header from "./componentes/Header/Header";
-import Transport from "./componentes/Transports/transport";
+
+import MediaCard from "./componentes/Transport1/Transport";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Transport></Transport>
+
+      <div className="sty">
+        <MediaCard></MediaCard>
+        <MediaCard></MediaCard>
+        <MediaCard></MediaCard>
+        <MediaCard></MediaCard>
+      </div>
     </div>
   );
 }

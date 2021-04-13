@@ -10,10 +10,10 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345
+    maxWidth: 300
   },
   media: {
-    height: 140
+    height: 110
   }
 });
 
@@ -40,10 +40,7 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+          Bike
         </Button>
       </CardActions>
     </Card>
