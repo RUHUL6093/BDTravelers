@@ -32,7 +32,7 @@ export default function App() {
           <Route path="/Contact">
             <Contact />
           </Route>
-          <Route path="/Login">
+          <Route path="/Destination">
             <Login />
           </Route>
         </Switch>

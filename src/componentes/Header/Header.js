@@ -14,9 +14,7 @@ const Header = () => {
 
         <a href="/Blog"> Blog </a>
         <a href="/Contact"> Contact </a>
-        <Button variant="contained" color="secondary">
-          Login
-        </Button>
+        <a href="/Login"> Login </a>
       </nav>
     </div>
   );
