@@ -20,20 +20,19 @@ export default function App() {
       <Header></Header>
       <Router>
         <Switch>
-          <Route path="Home">
-            {" "}
-            <Home />{" "}
+          <Route path="/Home">
+            <Home />
           </Route>
-          <Route path="Destination">
+          <Route path="/Destination">
             <Destination />
           </Route>
-          <Route path="Blog">
+          <Route path="/Blog">
             <Blog />
           </Route>
-          <Route path="Contact">
+          <Route path="/Contact">
             <Contact />
           </Route>
-          <Route path="Login">
+          <Route path="/Login">
             <Login />
           </Route>
         </Switch>
