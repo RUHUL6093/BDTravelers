@@ -14,26 +14,26 @@ export default function App() {
     <div
       className="App"
       style={{
-        backgroundImage: `url(${Bg})`
+        backgroundImage: `url(${Bg})`,
       }}
     >
       <Header></Header>
       <Router>
         <Switch>
-          <Route path="Home">
+          <Route path="/Home">
             {" "}
             <Home />{" "}
           </Route>
-          <Route path="Destination">
+          <Route path="/Destination">
             <Destination />
           </Route>
-          <Route path="Blog">
+          <Route path="/Blog">
             <Blog />
           </Route>
-          <Route path="Contact">
+          <Route path="/Contact">
             <Contact />
           </Route>
-          <Route path="Login">
+          <Route path="/Login">
             <Login />
           </Route>
         </Switch>
